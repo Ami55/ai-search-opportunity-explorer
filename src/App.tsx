@@ -150,17 +150,6 @@ export default function App() {
               Analyze citation likelihood, capture competitor share of voice, extract missing entities, and secure citations within generative AI search outcomes (GEO / Generative Engine Optimization).
             </p>
           </div>
-          <div className="flex flex-wrap items-center gap-2">
-            <button
-              onClick={() => setIsHowItWorksOpen(true)}
-              className="flex items-center gap-1.5 text-[11px] font-semibold text-blue-400 hover:text-blue-300 font-mono bg-blue-500/10 hover:bg-blue-500/20 px-3 py-2 rounded-lg border border-blue-500/20 transition cursor-pointer shrink-0"
-            >
-              <Info className="w-3.5 h-3.5" /> How it Works Guide
-            </button>
-            <div className="flex items-center gap-1 text-[11px] font-semibold text-slate-400 font-mono bg-slate-900 px-3 py-2 rounded-lg border border-slate-800 shrink-0">
-              <Sparkles className="w-3.5 h-3.5 text-blue-400" /> Ahrefs for Generative Engines
-            </div>
-          </div>
         </div>
 
         {/* Input panel block */}

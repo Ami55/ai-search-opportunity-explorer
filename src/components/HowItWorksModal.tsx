@@ -93,7 +93,7 @@ export default function HowItWorksModal({ isOpen, onClose }: HowItWorksModalProp
               How the AI Search Opportunity Explorer Works
             </h2>
             <p className="text-xs sm:text-sm text-slate-400 mt-1 max-w-2xl">
-              Understand how modern Generative Engine Optimization (GEO) algorithms extract, measure, and optimize brand visibility across LLM search engines.
+              Follow the instructions below to run your first analysis and use each report.
             </p>
           </div>
 
@@ -108,19 +108,6 @@ export default function HowItWorksModal({ isOpen, onClose }: HowItWorksModalProp
 
         {/* Scrollable Body */}
         <div className="p-6 sm:p-8 overflow-y-auto space-y-6 text-slate-300">
-          {/* Overview Callout */}
-          <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-blue-950/40 via-indigo-950/30 to-purple-950/40 border border-blue-500/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-blue-500/20 border border-blue-500/30 flex items-center justify-center shrink-0">
-              <Bot className="w-6 h-6 text-blue-400" />
-            </div>
-            <div className="text-xs sm:text-sm leading-relaxed">
-              <strong className="text-slate-100 font-semibold block mb-0.5">
-                The Shift from Traditional SEO to Generative Engine Optimization (GEO):
-              </strong>
-              AI search engines (ChatGPT Search, Google AI Overviews, Perplexity, Gemini, Microsoft Copilot) don't rank 10 blue links; they synthesize answers and cite authoritative semantic nodes. Our platform analyzes and secures your brand's presence in these generative syntheses.
-            </div>
-          </div>
-
           {/* Practical usage instructions */}
           <div className="p-5 rounded-2xl bg-slate-950/60 border border-blue-500/20 space-y-4">
             <div>
