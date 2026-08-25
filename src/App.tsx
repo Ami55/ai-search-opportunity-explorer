@@ -220,6 +220,11 @@ export default function App() {
         )}
       </main>
 
+      <HowItWorksModal
+        isOpen={isHowItWorksOpen}
+        onClose={() => setIsHowItWorksOpen(false)}
+      />
+
       {/* ================= FOOTER ================= */}
       <footer className="border-t border-slate-900/60 bg-slate-950 text-slate-500 text-xs mt-16 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
