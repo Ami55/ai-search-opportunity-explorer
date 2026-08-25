@@ -39,7 +39,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("https://gemini-proxy-2.vercel.app/api/ai-search-explorer", {
+      const response = await fetch("https://gemini-proxy-2-pearl.vercel.app/api/ai-search-explorer", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "analyze",
@@ -75,7 +75,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("https://gemini-proxy-2.vercel.app/api/ai-search-explorer", {
+      const response = await fetch("https://gemini-proxy-2-pearl.vercel.app/api/ai-search-explorer", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "analyze", ...inputs })
