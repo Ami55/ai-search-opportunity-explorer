@@ -121,6 +121,34 @@ export default function HowItWorksModal({ isOpen, onClose }: HowItWorksModalProp
             </div>
           </div>
 
+          {/* Practical usage instructions */}
+          <div className="p-5 rounded-2xl bg-slate-950/60 border border-blue-500/20 space-y-4">
+            <div>
+              <h3 className="text-sm font-bold text-slate-100 flex items-center gap-2">
+                <Compass className="w-4 h-4 text-blue-400" /> How to Use This App
+              </h3>
+              <p className="text-xs text-slate-400 mt-1">Follow these steps to run an analysis and turn the findings into an action plan.</p>
+            </div>
+            <ol className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+              {[
+                ['Enter your target', 'Add one primary keyword, your website domain, target country, industry, and language.'],
+                ['Add competitors', 'Enter the domains of the brands you want to compare. Use domain names without long page paths.'],
+                ['Run the scan', 'Select Run GEO Opportunity Scan and wait for the analysis to finish. Keep the page open during processing.'],
+                ['Review the dashboard', 'Start with GEO Readiness, share of voice, missing entities, content gaps, and citation opportunities.'],
+                ['Test real prompts', 'Open Interactive Prompt Simulator, enter a conversational query, and compare predicted brand visibility.'],
+                ['Use the action plan', 'Open Agency Performance Report to prioritize quick wins, 30-day tasks, and longer-term improvements.']
+              ].map(([title, text], index) => (
+                <li key={title} className="flex gap-3 rounded-xl border border-slate-800 bg-slate-900/70 p-3.5">
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-500/15 text-[11px] font-bold text-blue-400">{index + 1}</span>
+                  <div><strong className="block text-slate-200 mb-1">{title}</strong><span className="text-slate-400 leading-relaxed">{text}</span></div>
+                </li>
+              ))}
+            </ol>
+            <div className="rounded-xl border border-amber-500/20 bg-amber-500/5 px-4 py-3 text-[11.5px] leading-relaxed text-amber-100/80">
+              Results are strategic AI-generated estimates, not direct measurements from ChatGPT, Google, Perplexity, or other third-party engines. Validate important decisions with live searches and analytics data.
+            </div>
+          </div>
+
           {/* 5-Step Process Cards */}
           <div className="space-y-4">
             <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 font-mono">
