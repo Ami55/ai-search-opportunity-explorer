@@ -1,0 +1,6 @@
+{
+  "name": "AI Search Opportunity Explorer",
+  "description": "A GEO (Generative Engine Optimization) platform to analyze competitor visibility in AI search, detect content and entity gaps, and optimize for AI engine retrieval.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
