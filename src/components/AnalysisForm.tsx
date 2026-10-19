@@ -15,7 +15,7 @@ interface AnalysisFormProps {
 
 export default function AnalysisForm({ onAnalyze, loading }: AnalysisFormProps) {
   const [primaryKeyword, setPrimaryKeyword] = useState("private tour guide italy");
-  const [websiteDomain, setWebsiteDomain] = useState("toursbylocals.com");
+  const [websiteDomain, setWebsiteDomain] = useState("example.com");
   const [country, setCountry] = useState("Italy");
   const [industry, setIndustry] = useState("Travel & Tourism");
   const [competitorsInput, setCompetitorsInput] = useState("viator.com, getyourguide.com, airbnb.com");
@@ -130,7 +130,7 @@ export default function AnalysisForm({ onAnalyze, loading }: AnalysisFormProps) 
                 type="text"
                 value={websiteDomain}
                 onChange={(e) => setWebsiteDomain(e.target.value)}
-                placeholder="e.g. toursbylocals.com"
+                placeholder="e.g. example.com"
                 required
                 disabled={loading}
                 className="w-full bg-slate-950/80 hover:bg-slate-950 border border-slate-800 focus:border-blue-500 text-slate-200 rounded-lg pl-9 pr-3 py-2.5 text-xs outline-none transition"
@@ -213,10 +213,10 @@ export default function AnalysisForm({ onAnalyze, loading }: AnalysisFormProps) 
             <button
               type="button"
               disabled={loading}
-              onClick={() => loadExample("private tour guide italy", "toursbylocals.com", "viator.com, getyourguide.com, airbnb.com", "Travel & Tourism", "Italy")}
+              onClick={() => loadExample("private tour guide italy", "example.com", "viator.com, getyourguide.com, airbnb.com", "Travel & Tourism", "Italy")}
               className="text-[11px] bg-slate-950 hover:bg-slate-850 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-850 hover:border-slate-800 transition"
             >
-              🇮🇹 Private Italy Guides (toursbylocals.com)
+              🇮🇹 Private Italy Guides (example.com)
             </button>
             <button
               type="button"

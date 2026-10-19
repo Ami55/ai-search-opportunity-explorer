@@ -731,7 +731,7 @@ app.post("/api/simulate-prompt", async (req, res) => {
     // Seed probability based on character length/vibe match
     const scores = brands.map(b => {
       let score = 30 + Math.floor(Math.random() * 40); // 30-70 baseline
-      // Let's bias competitors upwards slightly if user is 'toursbylocals.com' comparing viator
+      // Apply the existing illustrative competitor weighting.
       if (b.toLowerCase().includes("viator") || b.toLowerCase().includes("getyourguide")) {
         score += 15;
       }

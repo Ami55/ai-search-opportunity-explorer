@@ -44,7 +44,7 @@ export default function App() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "analyze",
           primaryKeyword: "private tour guide italy",
-          websiteDomain: "toursbylocals.com",
+          websiteDomain: "example.com",
           competitors: ["viator.com", "getyourguide.com", "airbnb.com"],
           country: "Italy",
           industry: "Travel & Tours"
