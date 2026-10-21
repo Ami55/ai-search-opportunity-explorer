@@ -229,7 +229,7 @@ export default function App() {
       <footer className="border-t border-slate-900/60 bg-slate-950 text-slate-500 text-xs mt-16 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
-            <span>&copy; 2026 AI Search Opportunity Explorer. Developed by <strong className="text-slate-300">Ami - SEO Girl</strong>. All rights reserved.</span>
+            <span>&copy; 2026 AI Search Opportunity Explorer. Developed by <strong className="text-slate-300">SEO Girl - Ami</strong>. All rights reserved.</span>
             <span className="block text-[10px] text-slate-600 mt-1 font-mono">Generative Engine Optimization research and opportunity analysis</span>
           </div>
           <div className="flex gap-4 text-[10.5px] font-mono">
